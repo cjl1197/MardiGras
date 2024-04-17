@@ -1,0 +1,56 @@
+/* Stylesheet for Join Email */
+
+label{
+   display:block;
+   float: left;
+   clear: left;
+   width: 170px;
+   text-align: right;
+   margin-right: 40px;
+}
+input, textarea{
+	display: block;
+}
+input[type="text"],input[type="email"]{
+	width: 340px;
+	margin-bottom: 25px;
+}
+input:focus{
+	background-color: #D6AED2;
+}
+fieldset{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+legend{
+	float: left;
+	margin-left: 105px;
+	margin-right: 40px;
+	margin-top: 3px;
+    margin-bottom: 5px;
+}
+input[type="radio"], fieldset label{
+	display: inline;
+	float: none;
+	margin-top: 7px;
+}
+fieldset label{
+    margin-right: 20px;
+}
+textarea{
+	width: 340px;
+}
+select, textarea, input[type="checkbox"]{
+	margin-bottom: 10px;
+}
+select:focus, textarea:focus{
+	background-color: #D6AED2;
+}
+#button{
+		margin-left: 210px;
+		margin-bottom: 10px;
+}
+#button input{
+	display: inline;
+}
